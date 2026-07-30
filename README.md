@@ -19,3 +19,16 @@ To create my model, I first uploaded a dataset from Kaggle. I then split the dat
 After the model finished training I created a python file that used a live camera feed that ran for ten frames and classified what the object was out of thirty different types of common trash. I then created a function that printed the correct disposal method for that piece of trash.
 
 <img width="372" height="352" alt="Screenshot 2026-07-30 121336" src="https://github.com/user-attachments/assets/e39b4b91-d33a-4ada-869a-27236c72bcde" />
+
+How to Run
+
+1. Make sure you have a webcam connected to your Orin
+2. cd into /home/nvidia21/jetson-inference/python/training/classification
+3. Run classify.py by typing in python3 classify.py
+4. Point your webcam at a piece of trash, and it should tell you whether it is compostable, recyclable, or landfill
+
+Video link:
+
+
+https://github.com/user-attachments/assets/64391e8f-7b5d-4b4c-9690-f188edcbf17f
+
